@@ -1,5 +1,5 @@
 [package]
-name = "reqwest-retry"
+name = "reqwest-retry-wasi"
 version = "0.3.0"
 authors = ["Rodrigo Gryzinski <rodrigo.gryzinski@truelayer.com>"]
 edition = "2018"

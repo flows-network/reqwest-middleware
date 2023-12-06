@@ -1,5 +1,5 @@
 [package]
-name = "reqwest-tracing"
+name = "reqwest-tracing-wasi"
 version = "0.4.6"
 authors = ["Rodrigo Gryzinski <rodrigo.gryzinski@truelayer.com>"]
 edition = "2018"
