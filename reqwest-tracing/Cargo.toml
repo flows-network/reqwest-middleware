@@ -9,6 +9,10 @@ license = "MIT OR Apache-2.0"
 keywords = ["reqwest", "http", "middleware", "opentelemetry", "tracing"]
 categories = ["web-programming::http-client"]
 
+[lib]
+name = "reqwest_tracing"
+path = "src/lib.rs"
+
 [features]
 opentelemetry_0_13 = ["opentelemetry_0_13_pkg", "tracing-opentelemetry_0_12_pkg"]
 opentelemetry_0_14 = ["opentelemetry_0_14_pkg", "tracing-opentelemetry_0_13_pkg"]
@@ -21,7 +25,7 @@ opentelemetry_0_20 = ["opentelemetry_0_20_pkg", "tracing-opentelemetry_0_20_pkg"
 
 
 [dependencies]
-reqwest-middleware = { version = "0.2.0", path = "../reqwest-middleware" }
+reqwest-middleware-wasi = { version = "0.2.0", path = "../reqwest-middleware" }
 
 anyhow = "1.0.70"
 async-trait = "0.1.51"
